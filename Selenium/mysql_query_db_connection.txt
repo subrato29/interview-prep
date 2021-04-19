@@ -1,0 +1,12 @@
+mysql -u root
+show databases;
+
+****************** To Create a database**************
+craete database testing;
+******************************************************
+
+show databases;
+
+use testing;
+
+show tables;

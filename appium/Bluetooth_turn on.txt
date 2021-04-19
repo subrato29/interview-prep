@@ -1,0 +1,2 @@
+Opening "device manager" from command promt
+mmc devmgmt.msc

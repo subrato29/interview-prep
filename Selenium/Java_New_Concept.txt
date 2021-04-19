@@ -1,0 +1,90 @@
+Object class concept
+---------------------------------------------------------
+http://www.geeksforgeeks.org/object-class-in-java/
+
+
+Overriding equals method in Java
+--------------------------------------------------------------
+http://www.geeksforgeeks.org/overriding-equals-method-in-java/
+
+
+Object Cloning  (Telusko videos)
+-----------------------------------------------
+http://www.geeksforgeeks.org/clone-method-in-java-2/
+https://www.youtube.com/watch?v=b2uFL4BFDYg
+https://www.youtube.com/watch?v=WIh-TVq4ifI   --- Shallow and Deep copy
+https://www.youtube.com/watch?v=KWbr7B5LDzs  -- Clone
+https://www.youtube.com/watch?v=1MY9VjQrgho  -- Marker Interface
+
+
+
+Wrapper class in Java
+-----------------------------------------------
+https://www.youtube.com/watch?v=Jcd91wP6MV4
+https://www.youtube.com/watch?v=XKEBjp1k8cQ
+
+************************************************************************************************************************************
+
+Java Inner/static/anonymous Class
+-----------------------------------------------------------------------
+https://www.youtube.com/watch?v=okruEgWGVGU
+
+Inner Member Class In Java
+---------------------------------------------------------------
+https://www.youtube.com/watch?v=LyAMUSKBBuo&t=96s
+
+
+Inner Nested and Anonymous Class
+-------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=PYMKk4XothI
+
+
+Inner Class with Lambda Expression
+-------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=jOLH1eLjs84
+https://www.youtube.com/watch?v=yb46iD5dJYY&index=6&list=PLsyeobzWxl7qbvNnJKjYbkTLn2w3eRy1Q
+(Very Good Video)
+
+
+
+
+Introduction to Java 8
+----------------------------------------------------------------------
+https://www.youtube.com/watch?v=QRwG9X9l6xI&list=PLsyeobzWxl7qbvNnJKjYbkTLn2w3eRy1Q
+
+
+Consumer Interface in Java 8
+-----------------------------------------------------------------------
+https://www.youtube.com/watch?v=5uJ8jSf-c9g&index=7&list=PLsyeobzWxl7qbvNnJKjYbkTLn2w3eRy1Q
+
+foreach() method:
+--------------------------------------------------------------------
+https://www.youtube.com/watch?v=axTQD_Cirnw&index=5&list=PLsyeobzWxl7qbvNnJKjYbkTLn2w3eRy1Q
+
+
+Method Reference
+-------------------------------------------------------
+https://www.youtube.com/watch?v=svQKKg3aFzo&index=10&list=PLsyeobzWxl7qbvNnJKjYbkTLn2w3eRy1Q
+4:50 min
+
+
+Stream API in Java 8 Tutorial
+----------------------------------------------------------
+https://www.youtube.com/watch?v=9Orn0Pwp3YU
+
+Default method:
+-----------------------------------------------
+https://www.youtube.com/watch?v=0yah_nXy94s&index=10&list=PLsyeobzWxl7otduRddQWYTQezVul0xIX6
+
+
+
+
+
+Count the no of objects created in a single class:
+---------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=zZlqRkgNSrg
+
+
+Object Passing in Java
+------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=mAoJtlLfrqg

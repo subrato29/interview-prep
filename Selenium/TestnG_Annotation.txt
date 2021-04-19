@@ -1,0 +1,48 @@
+@BeforeSuite ---- (Executed before executing all the @Test accross multipls java files in a test suite)One time execution for one testsuit
+	
+	@BeforeTest ---- Before executing all the @Test in a Particular Java file
+		
+		@BeforeClass  ---- One time execution for one class file
+			
+			@BeforeMethod --- Execute for every @Test method
+			@Test
+			@AfterMethod
+		
+		@AfterClass
+	
+	@AfterTest ---- After executing all the @Test in a Particular Java file
+
+@AfterSuite	
+
+
+* Skipping a test method : throw new SkipException("Skipping the test for some reason");
+* @DataProvider ---- for parametarization
+* Assertion ---- Assert.assertEquals(actual, expected);
+	   ---- Assert.assertTrue
+* dependsOnMethods
+* by @Test(priority=1,2,3...) we, can prioratize the @Test methods
+
+
+
+TestNG Listeners:
+-------------------------------------------------------------------------------------------------------------------------------
+What are Listeners in TestNG : -
+
+In TestNG we can generate logs with the help of Listeners. 
+Listeners implement the interface "org.testng.ITestListener". 
+There are methods which gives you a real time information.
+
+By using TestNG listeners 'ITestListener' or 'TestListenerAdapter' we can change the default behaviour write our own implementation 
+when a Test fails or Skips etc.
+
+OnTestStart : Invoked each time before a test will be invoked.
+
+OnTestSuccess : Invoked each time a test succeeds.
+
+OnTestFailure : Invoked each time a test fails
+We can implement any logic that you want to do when a test fails, Normally most of them prefer taking screen shots when a test fails. Here in this method we can add a logic to take the screen shot and the name of the test as screenshot name.
+
+OnTestSkipped : Invoked each time a test is skipped.
+
+OnTestFinish : Invoked after all the tests have run and all their Configuration methods have been called.
+

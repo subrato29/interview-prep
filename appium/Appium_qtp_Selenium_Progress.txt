@@ -1,0 +1,32 @@
+Module 1 : Completed
+Module 2 : Completed
+Module 3 : Completed
+Part 1: Completed
+Part 2: Completed
+
+Module 4 : Completed
+Part 1: Completed--done
+Part 2: Completed -- done
+Part 3: Completed -- done
+
+Module 5 : Inprogress
+Part 1: completed
+Part 2: completed
+Part 3: completed
+
+Module 6 : completed
+
+Module 7 : completed
+Part 1: completed
+Part 2: completed
+Part 3: completed
+Part 4: completed
+Part 5: completed
+
+Module 8 : Inprogress
+Part 1: completed
+Part 2 : completed
+Part 3 : completed
+Part 4 : Inprogress
+
+Module 10 : complete -- See the video once again

@@ -1,0 +1,15 @@
+Online Mavan links to download Cucumber jar : https://search.maven.org/#search%7Cga%7C1%7Cjunit
+
+Javascript executor : http://www.ufthelp.com/2014/11/what-is-javascriptexecutor-in-selenium.html
+
+
+XPATH evaluator :  http://www.joecolantonio.com/2013/02/04/selenium-101-6-tools-to-help-you-with-object-recognition/
+
+XPATH evaluator : http://www.freeformatter.com/xpath-tester.html
+	              http://codebeautify.org/Xpath-Tester
+
+
+Jenkins Integration:
+------------------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=1e8I3A49ERc
+https://www.youtube.com/watch?v=4PTYVIaBT1Q

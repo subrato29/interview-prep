@@ -1,0 +1,7 @@
+Development                       		Testing
+--------------------------		----------------------------------------------	
+Angular                                                 CucumberJS
+Ionic                                                      Webdriverio
+Cordova                                                Selenium
+Bootstrap                                             Appium
+Gulp                                                       Gulp

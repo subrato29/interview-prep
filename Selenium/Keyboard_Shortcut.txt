@@ -1,0 +1,9 @@
+Different Keyboard shortcut
+--------------------------------------------------------------
+1) ctrl + O ---- to see different method in a java files
+2) ctrl + space ----- syso -> Systm.Out.println
+3) ctrl + shift + backspace --- to comment out a bunch of lines
+4) ctrl + space_bar ----
+5) F5 --- enter into the function
+6) F6 -- Line by Line debug
+7) F8 --- normal run

@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=kcjaIkJU-WI
+
+Appium Training Day 1 
+-------------------------------------------
+https://www.youtube.com/watch?v=HkfCXKZSxj0
+
+
+Appium Training Day 2  ---  Appium configure
+-------------------------------------------- 
+https://www.youtube.com/watch?v=kcjaIkJU-WI
+
+
+Appium sdk installation
+-------------------------------------------
+https://www.youtube.com/watch?v=7vvMltQtfxY
+
+
+Configuring android emulator with Appium
+------------------------------------------------------------------------- 
+https://www.youtube.com/watch?v=mgktqb5SXA4
+https://www.youtube.com/watch?v=OJhKxfTBiWU
+
+
+How To Install apk to Android Emulator Using ADB-AVD Manager
+-------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=S4gIygHw6YU
+
+
+
+http://www.qaautomated.com/2016/01/setting-up-appium-with-android-studio.html
+
+
+Automate Mobile application using Appium Selenium - configure Appium server
+------------------------------------------------------------------------------------------
+https://www.youtube.com/watch?v=sd0Cy1VYWzU&t=1s
+https://www.youtube.com/watch?v=gC1IDmL6d9w   --- Very good

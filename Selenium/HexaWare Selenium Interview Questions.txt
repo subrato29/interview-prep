@@ -1,0 +1,77 @@
+1. How do you clear the contents of a textbox in selenium?
+2. How to handle popups in selenium web driver?
+3. Tell me about yourself?
+4. What is retrospective meeting?
+5. What is abstraction?
+6. What is reference variable?
+7. Explain what is continuous integration?
+8. How can copy the Jenkins?
+9. Which type of testing can be automated?
+10. What is defect right?
+11. What are challenging in the spring?
+12. What is iner join?
+13. What is self join?
+14. Difference between joins.
+15. Explain cucumber bdd.
+16. Different phases of agile testing.
+17. Questions on java concepts (memory related)
+18. Explain hash map and hash table
+19. What is a generic?
+20. Qa roles and responsibilities.
+21. Selenium advantages and disadvantages.
+22. Qtp versus selenium.
+23. Xpath, css selector,
+24. What are the elements?
+25. Find element and find elements
+26. Framework
+27. What element you use
+28. Benefits / advantages of selenium
+29. What is string buffer and string?
+30. Java interface, abstract class , encapsulation
+31. String array list
+32. Outer join and inner join
+33. What is collections framework?
+34. Basic commands of MySQL.
+1st Round New Questions
+1. What are the different locators in selenium?
+2. What is the difference between final, finally and finalize?
+3. What is the difference between class and interface?
+4. What is the difference between Abstract class and interface?
+5. Method over loading and method overriding?
+6. What is destructor? Did you heard destructor?
+7. What is a garbage collector?
+8. Did you work on dev /bamboo tool?
+9. Did you work on Jenkins? How do you create a batch file in Jenkins?
+10. Tell me the access modifiers and non-access modifiers in java?
+11. Can we override main method?
+12. Can we declare a main method as final?
+13. What is the difference between StringBuffer and StringBuilder?
+14. Framework used in selenium in detail and questions related to it
+15. Code to invoke browsers other than Firefox in selenium
+16. Code to take screenshot and save it during execution in selenium
+17. Code to invoke browser if the browser .exe file is not in the project file
+18. Types of object identifiers in selenium
+19. What is absolute path and relative path?
+20. Implicit wait and explicit wait
+21. Difference between hash map and hash table
+22. Destructors in Java and explanation of each
+23. Overloading and overriding difference with example
+24. Explain final, finally, finalize
+25. Agile methodology
+26. Explain action builder class in selenium
+27. What are access modifiers in Java?
+28. Exception handling, polymorphism
+29. What is cucumber?
+30. What is feature file and step line definition
+31. How execution is done in cucumber
+32. What is continuous integration?
+33. How Jenkins is configured and explains code
+34. Step outline in cucumber
+35. Selenium pros n cons based on real time experience
+36. Call by value n call by reference
+37. What is string and string builder in Java?
+38. How execution done in grid
+39. Can we overload main
+40. Advantages of Jenkins
+41. Drivers available in web driver
+42. How we handle mouse operations in selenium and its code.

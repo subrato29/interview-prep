@@ -1,0 +1,3 @@
+adb kill-server
+android update sdk --no-ui
+adb start-server

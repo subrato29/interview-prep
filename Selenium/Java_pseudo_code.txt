@@ -1,0 +1,376 @@
+-----------------------------------------------------------------------------------------------------
+Armstrong no : 1(3)+5(3)+3(3)=153
+----------------------------------------------------
+int sum, temp;
+int inputNo=153;
+
+temp = inputNo;
+
+while(inputNo>0){
+	
+	int remainder=inputNo%10;
+	inputNo=inputNo/10;
+	sum=sum+(remainder*remainder*remainder)
+
+}
+
+if(temp==sum){
+	syso("Armstrong")
+}else{
+
+	syso("Not armstrong")	
+}
+
+---------------------------------------------------------------------------------------------------
+Fibonacci Series
+-----------------------------------------------------
+int firstNo=0, secondNo=1, sum
+syso(firstNo+" "+secondNo);
+
+int rangeToEnter = 6;
+
+for(int i=0;i<rangeToEnter;i++){
+	sum = firstNo+secondNo;
+	syso(" "+sum);
+	firstNo = secondNo;
+	secondNo = sum;
+	
+}
+
+---------------------------------------------------------------------------------------------------
+Palindrome No
+---------------------------------------------------
+int inputNo=121;
+
+int temp = inputNo;
+
+while(inputNo>0){
+	int remainder=inputNo%10;
+	sum = (sum*10)+remainder;	
+	inputNo= inputNo/10;
+}
+
+if(temp==sum){
+	syso("Palindrome")
+}else{
+	syso("Not Palindrome")
+}
+----------------------------------------------------------------------------------------------------
+Prime No:
+-------------------------------------------------
+
+int userInput=17
+int flag=0;
+
+if(userInput>1){
+
+	int m = userInput/2;
+	for(int i=2;i<m;i++){
+		if(int userInput%i==0){
+			syso("Not Prime")
+			flag=1;
+			break;	
+		}
+	
+	}
+
+	if(flag==0){
+		syso("Prime")
+	}	
+
+}else{
+	syso("Not prime")
+        }
+
+----------------------------------------------------------------------------------------------------
+Position of smallest element
+---------------------------------------------
+
+int[] array= {5,7,3,8,2,4,9,6};
+int smallest = array[0];
+for(int i=0;i<array.length;i++){
+	if(smallest>array[i]){
+		smallest=array[i];
+	}
+}
+syso("The smallest element : "+smallest);
+
+for(int i=0;i<array.length;i++){
+	if(smallest==array[i]){
+		syso("position of smallest element is "+(i+1))
+	}
+}
+
+---------------------------------------------------------------------------------------------------
+Write a code to make a list of object type?
+-----------------------------------------------------
+Student s1= new Student(1,"AAA",13)
+Student s2= new Student(2,"AAA",14)
+Student s3= new Student(3,"AAA",15)
+
+ArrayList<Student> al= new ArrayList<Student>
+al.add(s1);
+al.add(s2);
+al.add(s3);
+
+Iterator itr = al.iterator();
+
+while(itr.hasNext()){
+	Student st=(Student)itr.next();
+	syso(st.rollNo+"----"+st.name+"----"st.age)
+}
+
+class Student{
+	int rollNo;
+	String name;
+	int age;
+
+Student(int rollNo, String name, int age){
+	this.rollNo=rollNo;
+	this.name=name;
+	this.age=age;
+        }
+}
+
+---------------------------------------------------------------------------------------------------
+To Test the Broken Links/images:
+-----------------------------------------------------
+int countOfBrokenImage=0;
+int countOfImages = driver.findElements(By.tagName("img")).size();
+
+for(int i=0;i<countOfImages;i++){
+	verifyBrokenImage(imageElement);
+}
+
+public void verifyBrokenImage(imageElement){
+	HttpClient client= HttpClientBuilder().create().build();
+	HttpGet request = HttpGet(imageElement.getAttribute("src"));
+	HttpResponse response=client.execute(request);
+	if(response.getStatusLine().getStatusCode()!=200){
+	OR if ((resp_Code == 404) || (resp_Code == 505)) 
+		countOfBrokenImage++;
+	}	
+}
+
+
+---------------------------------------------------------------------------------------------------
+How to print even & odd numbers concurrently using thread?:
+-----------------------------------------------------
+public static void main(){
+	Runnable r1=new Runnable1()
+	Thread t1 = new Thread(r1)
+	t1.start();
+	
+	Runnable r2=new Runnable2()
+	Thread t2 = new Thread(r2)
+	t2.start();
+}
+
+
+class Runnable1 implements Runnable{
+	for(int i=0;i<=10;i++){
+		Thread.sleep(500);
+		if(i%2==0){
+			syso("The Even no : "+i)
+		}
+	}	
+}
+
+class Runnable2 implements Runnable{
+	for(int i=0;i<=10;i++){
+		Thread.sleep(500);
+		if(i%2!=0){
+			syso("The Odd no : "+i)
+		}
+	}	
+}
+
+-------------------------------------------------------------------------------------------------------------------------------
+To Reverse A Number In Java?
+-----------------------------------------------------
+int input = 123456;
+int sum=0;
+while(input>0){
+	int remainder = input%10;
+	sum=sum*10+remainder;
+	input=input/10;
+     }
+		
+System.out.println("The revered no is : "+sum);
+
+-------------------------------------------------------------------------------------------------------------------------------
+Write Java Code To Get Rid Of Multiple Spaces From A String?
+------------------------------------------------------------
+String input = "Try    to    remove   extra   spaces.";
+        	StringTokenizer st = new StringTokenizer(input," ");  
+	while (st.hasMoreTokens()) {  
+		System.out.print(st.nextToken());  
+	            }  
+          	} 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Write Java Code To Swap Two Numbers Without Using A Temporary
+-------------------------------------------------------------------------------
+int num1=10;
+int num2=20;
+
+syso("Before Swapping no : "+num1+"---------"+num2)
+
+num1=num1+num2;//num1=30
+num2=num1-num2;//num2=30-20=10
+num1=num1-num2;//num1=30-10=20 
+
+syso("After Swapping no : "+num1+"---------"+num2)
+
+-------------------------------------------------------------------------------------------------------------------------------
+Write A Java Program To Demonstrate String Reverse With And Without StringBuffer Class?
+------------------------------------------------------------------------------------------------------------
+
+String input = "subrato";
+char[] array=input.toCharArray();
+	for(int i=input.length()-1;i>=0;i--){
+		System.out.print(array[i]);
+	}
+
+------------------------------------------------------------------------------------------------------------------------------------
+Factorial no:
+--------------------------------------------------------------------------------
+int inputRange=6;
+int fact=1;
+while(inputRange>0){
+		fact=fact*inputRange;
+		inputRange--;
+		}
+System.out.println(fact);
+
+--------------------------------------------------------------------------------------------------------------------
+Write a Java program to calculate ‘Digit Sum’
+----------------------------------------------------------------------------
+int input=12345;
+int sum = 0;
+while(input>0){
+		int remainder=input%10;
+		sum =sum +remainder;
+		input=input/10;
+	        }
+System.out.println(sum);
+
+--------------------------------------------------------------------------------------------------------------------
+Bubble sort
+----------------------------------------------------------------------------
+----------------
+algo
+----------------
+begin BubbleSort(list)
+
+   for all elements of list
+      if list[i] > list[i+1]
+         swap(list[i], list[i+1])
+      end if
+   end for
+   
+   return list
+   
+end BubbleSort
+------------------
+Pseudo code
+------------------
+int[] arr = new int[] { 6, 8, 7, 4, 312, 78, 54, 9, 12, 100, 89, 74 };
+
+for (int i = 0; i < arr.length; i++) {
+        for (int j = i + 1; j < arr.length; j++) {
+            int tmp = 0;
+            if (arr[i] > arr[j]) {
+	   	tmp = arr[i];
+ 		arr[i] = arr[j];
+       		arr[j] = tmp;
+	            }
+	}
+      }
+	for(int i=0; i < arr.length; i++)	{  
+		syso(arr[i] + " ");  
+	}	
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Find the missing element from the given 2 array, second array is duplicate. 
+-----------------------------------------------------------------------------------------------------------
+int a[]={1,2,3,4,5,6,7};
+int b[]={1,6,4,3};
+
+HashSet<Integer> set1=new HashSet<Integer>();
+HashSet<Integer> set2=new HashSet<Integer>();
+
+for(int i=0;i<a.length;i++){
+	set1.add(a[i]);
+}
+for(int i=0;i<b.length;i++){
+	set2.add(b[i]);
+}
+set1.removeAll(set2);
+syso(set1);
+
+---------------------------------------------------------------------------------------------------------------------------------
+Count of 0 in 110500201 without converting it in String
+--------------------------------------------------------------------------------
+int input = 110500201;
+int count =0;
+int sum=0;
+
+while(input>0){
+	int remainder = input%10;
+	if(remainder==0){
+	count++;
+	}
+	sum = sum*10+remainder;
+	input=input/10;
+}
+	syso(count);
+-----------------------------------------------------------------------------------------------------------------------------------
+Write a program to display decimal part of a number
+-------------------------------------------------------------------------------
+double number = 12345.6789; // you have this
+int decimal = (int) number; // you have 12345
+double fractional = number - decimal; // you have 0.6789
+System.out.println("Integer part = " +decimal);
+System.out.println("Decimal part = "+fractional);
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Java program to count number of words in given string
+-------------------------------------------------------------------------------
+String s = "welcome to candid java tutorial";
+int count = 1;
+for (int i = 0; i < s.length() - 1; i++)
+	{
+		if ((s.charAt(i) == ' ') && (s.charAt(i + 1) != ' '))
+			{
+				count++;
+			}
+	}
+syso("Number of words in a string = " + count);
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+//Write code to sum 2 integer but u cant use a+b method, you have to use either ++ or --. How you will handle negative numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+int a=19, b=32
+int sum
+
+if(b<0){
+	sum=-b
+}else{
+	sum=b
+}
+
+for(int i=0;i<sum;i++){
+
+	if(b<0){
+		a--
+	}else{
+		a++
+	} 
+
+}
+
+syso("The summation is : "+a)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+

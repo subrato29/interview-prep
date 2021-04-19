@@ -1,0 +1,25 @@
+* ANT is a build and compile tool which is held by Apache
+* ANT is used to run your program on command promt
+* TestNG xslt report can only be generated through ANT
+
+* ANT commands
+---------------------------------------------------------------------------------------
+*Open the command prompt
+1) type ant
+2) if you get error "tools.jar" that means you need to copy the tools.jar file from jdk lib folder to jre lib folder
+3) if you get error "build.xml does not exist"
+4) 1st go to the project path in command prompt
+5) a) ant clean(delete the build folder)
+    b) ant compile(Create the build folder, which will all the class file corresponding to the java file)
+    c) ant run (Create the output)
+6) To create a .bat file
+	a) open a notepad
+	b) type : ant clean compile run
+	c) save it by "abc.bat"
+
+
+Installing ANT
+--------------------------------------------------------------------------------
+1) my computer--properties--advanced
+2) under System variables create a variables called "ANT_HOME" and give the value as the path of the ANT file
+3) Edit Path variable and give the value as the path of the bin folder of ANT file

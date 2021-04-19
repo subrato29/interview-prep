@@ -1,0 +1,11 @@
+adb devices -- to see the list of devices(emulator) attached with the machine
+adb -e install -r amazon.apk
+
+
+If you want to uninstall when connected to single device/emulator then use below command
+------------------------------------------------------------------
+adb uninstall <package name>
+
+else with multiple devices then use below command
+---------------------------------------------------------------------
+adb -s <device ID> uninstall <package name>

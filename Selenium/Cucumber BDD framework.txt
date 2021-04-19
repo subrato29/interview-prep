@@ -1,0 +1,13 @@
+https://cucumber.io/docs/reference
+https://github.com/cucumber/cucumber/wiki/Scenario-Outlines
+jar files needed for cucumber : http://eloraparija.com/first-test-script-using-cucumber/
+
+
+
+Three layers into the framework
+
+1) Feature Files
+2) Step files
+3) WebConnector
+
+

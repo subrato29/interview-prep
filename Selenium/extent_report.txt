@@ -1,0 +1,3 @@
+Extent Report
+----------------------------------------------------------------
+https://learn2automate.blog/2017/09/18/emailable-extent-reports-with-jenkins/

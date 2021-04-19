@@ -1,0 +1,40 @@
+mvn --version
+mvn archetype:generate
+mvn eclipse:eclipse
+M2_REPO -> Local Maven rep
+mvn validate
+mvn compile
+mvn package
+mvn test
+mvn install
+
+--------------------------------------------------------------------------------
+
+1) Download Maven from Maven.apache.org
+2) Copy the Maven URL "D:\My_Jars\apache-maven-3.3.9", and create a new variable in Environment variable called
+M2_HOME with value "D:\My_Jars\apache-maven-3.3.9"
+3) Edit the path variable and give the same path of maven in your system
+4) create a new variable JAVA_HOME and give the path of the jdk installation
+5) Open Command promt : type "mvn --version"
+6) mkdir maven --- open a directory named as "maven"
+7) cd maven
+8) mvn archetype:generate  (Extract all the project(archetype) from Maven centralised repository)
+9) give the "groupId" as the package name -- com.test
+10) "artifactId" as name of the project "MyMavenProject"
+11) Click Enter
+12) Build successful
+13) mvn eclipse:eclipse (To convert into an eclipse proect)
+14) mvnrepositories.com --- to get current Junit version
+15) mvn compile --- to compile the current project so that it can download the current version of junit
+16) search.maven.org/ -- to download the Selenium jar files
+17) mvn compile -- downloading the selenium jars
+18) mvn package -- execute all the test cases in src/test/java
+19) mvn test --- execute all the tcs inside the test directory
+20) mvn install ---- transfer the project into local maven repository
+
+
+
+------------------------------------------------------------------------------------------------------
+important links:
+******************************************
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
